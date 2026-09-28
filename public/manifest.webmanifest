@@ -1,0 +1,39 @@
+{
+  "name": "ToolBox Studio — Image & PDF Toolkit",
+  "short_name": "ToolBox",
+  "description": "All-in-one image and PDF toolkit. Background remover, upscaler, enhancer, PDF editor and more — 100% in your browser.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1120",
+  "theme_color": "#2563eb",
+  "categories": ["productivity", "utilities", "photo"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Background Remover",
+      "short_name": "Remove BG",
+      "url": "/tools/background-remover",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "PDF Editor",
+      "short_name": "Edit PDF",
+      "url": "/tools/pdf-editor",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "QR Generator",
+      "short_name": "QR Code",
+      "url": "/tools/qr-generator",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
